@@ -9,7 +9,7 @@
 
 }
 
-table {
+/*table {
     border-collapse: collapse;
     width: 100%;
 }
@@ -26,9 +26,9 @@ tr:nth-child(even) {
 th {
     background-color: blue;
     color: white;
-}
+}*/
 
-#demo {
+/*#demo {
     -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 5px 5px rgba(63,136,239,0), 5px 5px 5px 5px rgba(63,136,239,0);
     box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 5px 5px rgba(63,136,239,0), 5px 5px 5px 5px rgba(63,136,239,0);
-}
+}*/
