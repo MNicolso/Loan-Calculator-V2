@@ -22,15 +22,16 @@ function homeLoan() {
         minimumFractionDigits: 2
     })
 
-    let amountRound = formatter.format(principal);
-    let monthRound = formatter.format(monthly);
-    let interestRound = formatter.format(monthlyInterest);
-    let totalRound = formatter.format(totalInterest);
+    let amountRound = formatter.format(principal || 0); 
+    let monthRound = formatter.format(monthly || 0);
+    let interestRound = formatter.format(monthlyInterest || 0);
+    let totalRound = formatter.format(totalInterest || 0);
 
     document.getElementById("principalOut").innerHTML = `${amountRound}`;
     document.getElementById("monthlyOut").innerHTML = `${monthRound}`;
     document.getElementById("interestOut").innerHTML = `${interestRound}`;
     document.getElementById("costOut").innerHTML = `${totalRound}`;
+
 }
 
 document.getElementById("homeLoanButton").addEventListener("click", table)
@@ -103,6 +104,25 @@ function table() {
 
     }
     tableBody.innerHTML = monthsTableOutput;
+
+}
+
+function validate(evt) {
+    var theEvent = evt || window.event;
+
+    // Handle paste
+    if (theEvent.type === 'paste') {
+        key = event.clipboardData.getData('text/plain');
+    } else {
+        // Handle key press
+        var key = theEvent.keyCode || theEvent.which;
+        key = String.fromCharCode(key);
+    }
+    var regex = /[0-9\b]|\./;
+    if (!regex.test(key)) {
+        theEvent.returnValue = false;
+        if (theEvent.preventDefault) theEvent.preventDefault();
+    }
 }
 
 //monthsTableOutput += "<tr>" + "<td>" + monthsCollected[i] + "</td>" + "<td>" + monthly.toFixed(2) + "<td>" + principalBalance[principalBalance.length - 1].toFixed(2) + "</td>" + "</td>" + "<td>" + InterestBalance[InterestBalance.length - 1].toFixed(2) + "</td>" + "<td>" + sum.toFixed(2) + "</td>" + "<td>" + acountBalance[acountBalance.length - 1].toFixed(2) + "</td>" + "</tr>";
