@@ -29,7 +29,7 @@
     <img src="readMeImages/Favicon.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">CF-Loan-Calculator
+  <h3 align="center">Personal Loan Calculator
 </h3>
 
   <p align="center">
@@ -132,7 +132,7 @@ git clone https://github.com/markdjanicki23/CF-Mortgage-Calculator.git
 
 
 
-_For more examples, please refer to the [Webpage Application](https://example.com)_
+_For more examples, please refer to the [Webpage Application](https://personalloancalculator.netlify.app/)_
 
 
 
