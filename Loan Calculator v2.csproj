@@ -80,8 +80,7 @@
     <Content Include="assets\js\light-bootstrap-dashboard.js" />
     <Content Include="Content\custom.css" />
     <Content Include="Content\images\loan.png" />
-    <Content Include="dashboard.html" />
-    <Content Include="Index.html" />
+    <Content Include="index.html" />
     <Content Include="Scripts\custom.js" />
     <Content Include="Scripts\table.js" />
     <Content Include="table.html" />
