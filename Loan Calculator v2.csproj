@@ -79,13 +79,12 @@
     <Content Include="assets\js\jquery.3.2.1.min.js" />
     <Content Include="assets\js\light-bootstrap-dashboard.js" />
     <Content Include="Content\custom.css" />
-    <Content Include="Content\images\Favicon.png" />
     <Content Include="Content\images\loan.png" />
-    <Content Include="dashboard.html" />
-    <Content Include="Index.html" />
+    <Content Include="index.html" />
     <Content Include="Scripts\custom.js" />
     <Content Include="Scripts\table.js" />
     <Content Include="table.html" />
+    <Content Include="user.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
