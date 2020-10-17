@@ -146,17 +146,19 @@
                             <div class="card">
                                 <div class="row">
                                     <div class="col text-center">
+                                  <form onsubmit="return false;">
                                         <hr />
                                         <span>Loan Amount: </span>
-                                        <input type="text" id="amount" />
+                                        <input required type="text" id="amount" onkeypress='validate(event)'  />
                                         <hr />
                                         <span>Term(Months): </span>
-                                        <input type="text" id="months" />
+                                        <input required type="text" id="months" />
                                         <hr />
                                         <span>Interest Rate: </span>
-                                        <input type="text" id="rate" />
+                                        <input required type="text" id="rate" />
                                         <hr />
-                                        <button class="btn btn-dark" onclick="table(); homeLoan()" id="homeLoanButton">Do Math</button>
+                                        <button type="submit" class="btn btn-dark" onclick="table(); homeLoan()" id="homeLoanButton">Do Math</button>
+                                   </form>
                                     </div>
                                 </div>
                             </div>
