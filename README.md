@@ -167,8 +167,7 @@ Project Link: [https://github.com/markdjanicki23/CF-Mortgage-Calculator](https:/
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]:https://img.shields.io/badge/Contributor-3-green
 [contributors-url]: https://github.com/MNicolso/Loan-Calculator-V2/graphs/contributors
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-shield]: https://img.shields.io/badge/Issues-Here-orange
 [issues-url]: https://github.com/MNicolso/Loan-Calculator-V2/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
 [product-screenshot]: readMeImages/screenshot.png
 
