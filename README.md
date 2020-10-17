@@ -68,16 +68,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+CF Loan Calculator is a tool desinged to help users plan and manage loans and debt. With an input of loan amount, term length (months), and interest rate. Output will show over all loan information as well as a month by month break down.
 
 ### Built With
 Here you can find the frameworks used to develope CF-Mortgage-Calculator.
@@ -114,7 +105,32 @@ git clone https://github.com/markdjanicki23/CF-Mortgage-Calculator.git
 <!-- USAGE EXAMPLES -->
 ## Application Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+####Input Value Collection
+
+##UI
+
+##Html
+
+##JavaScript
+
+####Loan Payment Output
+
+##UI
+
+##Html
+
+##JavaScript
+
+
+####Table output
+
+##UI
+
+##Html
+
+##JavaScript
+
+
 
 _For more examples, please refer to the [Webpage Application](https://example.com)_
 
@@ -165,7 +181,7 @@ Project Link: [https://github.com/markdjanicki23/CF-Mortgage-Calculator](https:/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]:https://img.shields.io/badge/Contributor-3-green
+[contributors-shield]:https://img.shields.io/badge/Contributors-3-green
 [contributors-url]: https://github.com/MNicolso/Loan-Calculator-V2/graphs/contributors
 [issues-shield]: https://img.shields.io/badge/Issues-Here-orange
 [issues-url]: https://github.com/MNicolso/Loan-Calculator-V2/issues
