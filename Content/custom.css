@@ -9,6 +9,15 @@
 
 }
 
+input {
+    width: 30%;
+    margin-top: 10px;
+}
+
+.btn {
+    width: 50%;
+    margin-bottom: 20px;
+}
 /*table {
     border-collapse: collapse;
     width: 100%;
