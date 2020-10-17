@@ -31,6 +31,7 @@ var amount = 25000;//document.getElementById("amount");
     
     let monthRound = formatter.format(monthly);
 
+<<<<<<< HEAD
     
 
     for (var i = 1; i <= months; i++) {
@@ -53,5 +54,22 @@ var amount = 25000;//document.getElementById("amount");
     }
     console.log(datahtml);
 
+=======
+    for (var i = 1; i <= months; i++) {
+
+        
+        let perMonth = monthly;
+        let balance = amount - (perMonth * i);
+        balance = Math.max(0, balance);
+        let perfectBalance = formatter.format(balance); // as all things should be
+
+     
+
+
+        datahtml += `<tr><td>${i}</td><td>${monthRound}</td><td>gg</td><td>gg </td><td> gg</td><td>${perfectBalance}</td></tr>`;
+    }
+    console.log(datahtml);
+    
+>>>>>>> Development
     tableBody.innerHTML = datahtml;
 }
