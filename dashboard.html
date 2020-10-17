@@ -151,7 +151,8 @@
                                         <form onsubmit="return false;">
                                             <hr />
                                             <span>Loan Amount: </span>
-                                            <input required type="text" id="amount" onkeypress='validate(event)' />
+                                            <span>$</span>
+                                            <input required maxlength = "9" type="text" id="amount" onkeypress='validate(event)' />
                                             <hr />
                                             <span>Term(Months): </span>
                                             <input required type="text" id="months" />
