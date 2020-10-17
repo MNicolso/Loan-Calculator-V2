@@ -13,8 +13,8 @@ function homeLoan(){
     var x = Math.pow(1 + interest, payments); //Math.pow computes powers
     var monthly = (principal * x * interest) / (x - 1);
 
-    var monthlyInterest = (monthly * payments);
-    var totalInterest = ((monthly * payments) - principal);
+    var totalInterest = (monthly * payments);
+    var monthlyInterest = ((monthly * payments) - principal);
 
     const formatter = new Intl.NumberFormat('en-US', {
         style: 'currency',
@@ -65,9 +65,13 @@ function table() {
     let tableBody = document.getElementById("tabledata");
     var monthsTableOutput = "";
 
-    for (i = 0; i < months; i++) {
-        
+    const formatter = new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: 'USD',
+        minimumFractionDigits: 2
+    })
 
+    for (i = 0; i < months; i++) {
 
         //interest Payment  
         var iBalance = acountBalance[i] * (rate / 1200);
@@ -94,7 +98,7 @@ function table() {
         var balance = acountBalance[i] - principalBalance[i];
         acountBalance.push(balance);
 
-        monthsTableOutput += "<tr>" + "<td>" + monthsCollected[i] + "</td>" + "<td>" + monthly.toFixed(2) + "<td>" + principalBalance[principalBalance.length - 1].toFixed(2) + "</td>" + "</td>" + "<td>" + InterestBalance[InterestBalance.length - 1].toFixed(2) + "</td>" + "<td>" + sum.toFixed(2) + "</td>" + "<td>" + acountBalance[acountBalance.length - 1].toFixed(2) + "</td>" + "</tr>";
+        monthsTableOutput += "<tr>" + "<td>" + monthsCollected[i] + "</td>" + "<td>" + formatter.format(monthly) + "<td>" + formatter.format(principalBalance[principalBalance.length - 1]) + "</td>" + "</td>" + "<td>" + formatter.format(InterestBalance[InterestBalance.length - 1]) + "</td>" + "<td>" + formatter.format(sum) + "</td>" + "<td>" + formatter.format(acountBalance[acountBalance.length - 1]) + "</td>" + "</tr>";
 
         
     }
