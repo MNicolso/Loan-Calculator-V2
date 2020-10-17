@@ -62,8 +62,11 @@ function table() {
     var totalPayments = [];
     var principalBalance = [];
 
+    let tableBody = document.getElementById("tabledata");
+    var monthsTableOutput = "";
+
     for (i = 0; i < months; i++) {
-        var monthsTableOutput;
+        
 
 
         //interest Payment  
@@ -93,6 +96,11 @@ function table() {
 
         monthsTableOutput += "<tr>" + "<td>" + monthsCollected[i] + "</td>" + "<td>" + monthly.toFixed(2) + "<td>" + principalBalance[principalBalance.length - 1].toFixed(2) + "</td>" + "</td>" + "<td>" + InterestBalance[InterestBalance.length - 1].toFixed(2) + "</td>" + "<td>" + sum.toFixed(2) + "</td>" + "<td>" + acountBalance[acountBalance.length - 1].toFixed(2) + "</td>" + "</tr>";
 
-        document.getElementById('monthsOutput').innerHTML = monthsTableOutput;
+        
     }
+        tableBody.innerHTML = monthsTableOutput;
 }
+
+//monthsTableOutput += "<tr>" + "<td>" + monthsCollected[i] + "</td>" + "<td>" + monthly.toFixed(2) + "<td>" + principalBalance[principalBalance.length - 1].toFixed(2) + "</td>" + "</td>" + "<td>" + InterestBalance[InterestBalance.length - 1].toFixed(2) + "</td>" + "<td>" + sum.toFixed(2) + "</td>" + "<td>" + acountBalance[acountBalance.length - 1].toFixed(2) + "</td>" + "</tr>";
+
+//`<tr><td>${monthsCollected[i]}</td><td>${monthly.toFixed(2)}</td><td>${principalBalance[principalBalance.length - 1].toFixed(2)}</td><td>${InterestBalance[InterestBalance.length - 1].toFixed(2)}</td><td>${sum.toFixed(2)}</td><td>${acountBalance[acountBalance.length - 1].toFixed(2)}</td></tr >`;
