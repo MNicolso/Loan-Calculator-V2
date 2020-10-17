@@ -105,30 +105,30 @@ git clone https://github.com/markdjanicki23/CF-Mortgage-Calculator.git
 <!-- USAGE EXAMPLES -->
 ## Application Usage
 
-####Input Value Collection
+#### Input Value Collection
 
-##UI
+## UI
 
-##Html
+## Html
 
-##JavaScript
+## JavaScript
 
-####Loan Payment Output
+#### Loan Payment Output
 
-##UI
+## UI
 
-##Html
+## Html
 
-##JavaScript
+## JavaScript
 
 
-####Table output
+#### Table output
 
-##UI
+## UI
 
-##Html
+## Html
 
-##JavaScript
+## JavaScript
 
 
 
