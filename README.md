@@ -39,9 +39,9 @@
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Site</a>
     ·
-    <a href="https://github.com/markdjanicki23/CF-Loan-Calculator/issues">Report Bug</a>
+    <a href="https://github.com/MNicolso/Loan-Calculator-V2/issues">Report Bug</a>
     ·
-    <a href="https://github.com/markdjanicki23/CF-Loan-Calculator/issues">Request Feature</a>
+    <a href="https://github.com/MNicolso/Loan-Calculator-V2/issues">Request Feature</a>
   </p>
 </p>
 
