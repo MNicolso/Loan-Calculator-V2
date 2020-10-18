@@ -1,13 +1,13 @@
 ﻿<!doctype html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>CF Mortgage Calculator</title>
+    <title>CF Mortgage Calculator</title>
 
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
 
 
@@ -15,14 +15,15 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Animation library for notifications   -->
-    <link href="assets/css/animate.min.css" rel="stylesheet"/>
+    <link href="assets/css/animate.min.css" rel="stylesheet" />
 
     <!--  Light Bootstrap Table core CSS    -->
-    <link href="assets/css/light-bootstrap-dashboard.css?v=1.4.0" rel="stylesheet"/>
+    <link href="assets/css/light-bootstrap-dashboard.css?v=1.4.0" rel="stylesheet" />
 
 
     <!--  CSS for Demo Purpose, don't include it in your project     -->
     <link href="assets/css/demo.css" rel="stylesheet" />
+    <link href="Content/custom.css" rel="stylesheet" />
 
 
     <!--     Fonts and icons     -->
@@ -78,17 +79,17 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Table List</a>
+                    <a class="navbar-brand" id="demotext" href="#">Table List</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-left">
-                        <li>
+                        <!--<li>
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <i class="fa fa-dashboard"></i>
                                 <p class="hidden-lg hidden-md">Dashboard</p>
                             </a>
-                        </li>
-                        <li class="dropdown">
+                        </li>-->
+                        <!--<li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <i class="fa fa-globe"></i>
                                 <b class="caret hidden-sm hidden-xs"></b>
@@ -105,7 +106,7 @@
                                 <li><a href="#">Notification 4</a></li>
                                 <li><a href="#">Another notification</a></li>
                             </ul>
-                        </li>
+                        </li>-->
                         <li>
                             <a href="">
                                 <i class="fa fa-search"></i>
@@ -114,7 +115,7 @@
                         </li>
                     </ul>
 
-                    <ul class="nav navbar-nav navbar-right">
+                    <!--<ul class="nav navbar-nav navbar-right">
                         <li>
                             <a href="">
                                 <p>Account</p>
@@ -144,7 +145,7 @@
                             </a>
                         </li>
                         <li class="separator hidden-lg hidden-md"></li>
-                    </ul>
+                    </ul>-->
                 </div>
             </div>
         </nav>
@@ -153,7 +154,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="card">
+                        <div class="card" id="demo">
                             <div class="header">
                                 <h4 class="title">Payments by Month</h4>
                                 <p class="category"></p>

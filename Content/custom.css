@@ -32,3 +32,80 @@ th {
     -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 5px 5px rgba(63,136,239,0), 5px 5px 5px 5px rgba(63,136,239,0);
     box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 5px 5px rgba(63,136,239,0), 5px 5px 5px 5px rgba(63,136,239,0);
 }*/
+
+#demo {
+    -webkit-box-shadow: 5px 5px 15px 5px #29C9FF;
+    box-shadow: 5px 5px 15px 5px #29C9FF;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: skyblue;
+    color: white;
+    font-size: 30px;
+}
+
+
+.navbar {
+    padding: 15px;
+    text-align: center;
+    background: #1DC7EA;
+    color: white;
+    font-size: 30px;
+}
+
+.demo {
+    -webkit-box-shadow: 5px 5px 15px 5px #29C9FF;
+    box-shadow: 5px 5px 15px 5px #29C9FF;
+}
+#demotext {
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15), -27px 14px 9px #000000;
+    color: #FFFFFF;
+    background: #1DC7EA;
+}
+
+
+
+a.logoutButton {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+    a.logoutButton:hover {
+        color: #000000;
+        background-color: #FFFFFF;
+    }
+
+@media all and (max-width:30em) {
+     a.logoutButton {
+        display: block;
+        margin: 0.4em auto;
+    }
+} 
+
+#monthlyOut {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#outputs {
+    font-size: 20px;
+}
+
+input, textarea, select, button {
+    width: 30%;
+    padding: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+}
