@@ -81,7 +81,7 @@ Here you can find the frameworks used to develope the Personal Loan Calculator.
 
 ### Below is the link to start using our loan calculator.
 
-Project Link: [https://personalloancalculator.netlify.app/](https://personalloancalculator.netlify.app/)
+The Personal Loan Calculator: [https://personalloancalculator.netlify.app/](https://personalloancalculator.netlify.app/)
 
 
 
