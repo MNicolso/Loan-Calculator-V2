@@ -53,8 +53,7 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
-  * [Installation](#installation)
-* [Contributors & Contact](#contributors-&-contact)
+* [Contributors & Contact](#contributors-and-contact)
 * [Acknowledgements](#acknowledgements)
 
 
@@ -83,7 +82,7 @@ Here you can find the frameworks used to develope the Personal Loan Calculator.
 Project Link: [https://personalloancalculator.netlify.app/](https://personalloancalculator.netlify.app/)
 
 
-## Contributors & Contact
+## Contributors and Contact
 
 Reach out and contact the creators here:
 
