@@ -155,9 +155,10 @@
                                             <input required maxlength = "9" type="text" id="amount" onkeypress='validate(event)' />
                                             <hr />
                                             <span>Term(Months): </span>
-                                            <input required type="text" id="months" />
+                                            <input required maxlength ="3" type="text" id="months" />
                                             <hr />
                                             <span>Interest Rate: </span>
+                                            <span>%</span>
                                             <input required type="text" id="rate" />
                                             <hr />
                                             <button type="submit" class="btn btn-dark" onclick="table(); homeLoan()" id="homeLoanButton">Do Math</button>
