@@ -146,22 +146,25 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card">
+                                <div class="header">
+                                    <h4 class="title text-center">Loan Information</h4>
+                                </div>
                                 <div class="row">
                                     <div class="col text-center">
                                         <form onsubmit="return false;">
                                             <br />
-                                            <span>Loan Amount: </span>
+                                            <span id="input">Loan Amount: </span>
                                             <span>$</span>
-                                            <input required maxlength = "9" type="text" id="amount" onkeypress='validate(event)' />
+                                            <input required maxlength="9" type="text" id="amount" onkeypress='validate(event)' />
                                             <br />
-                                            <span>Term(Months): </span>
-                                            <input required maxlength ="3" type="text" id="months" onkeypress='validate(event)'  />
+                                            <span id="input">Term (Months): </span>
+                                            <input required maxlength="3" type="text" id="months" onkeypress='validate(event)' />
                                             <br />
-                                            <span>Interest Rate: </span>
+                                            <span id="input">Interest Rate: </span>
                                             <span>%</span>
-                                            <input required maxlength = "3" type="text" id="rate" onkeypress='validate(event)'  />
-                                            <hr />
-                                            <button type="submit" class="btn btn-dark" onclick="table(); homeLoan()" id="homeLoanButton">Do Math</button>
+                                            <input required maxlength="3" type="text" id="rate" onkeypress='validate(event)' />
+                                    
+                                            <button type="submit" class="btn btn-dark" onclick="table(); homeLoan()" id="homeLoanButton">Calculate Loan</button>
                                         </form>
                                     </div>
                                 </div>

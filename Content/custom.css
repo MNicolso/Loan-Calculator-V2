@@ -67,32 +67,7 @@ th {
 
 
 
-a.logoutButton {
-    display: inline-block;
-    padding: 0.35em 1.2em;
-    border: 0.1em solid #FFFFFF;
-    margin: 0 0.3em 0.3em 0;
-    border-radius: 0.12em;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Roboto',sans-serif;
-    font-weight: 300;
-    color: #FFFFFF;
-    text-align: center;
-    transition: all 0.2s;
-}
 
-    a.logoutButton:hover {
-        color: #000000;
-        background-color: #FFFFFF;
-    }
-
-@media all and (max-width:30em) {
-     a.logoutButton {
-        display: block;
-        margin: 0.4em auto;
-    }
-} 
 
 #monthlyOut {
     font-size: 30px;
@@ -113,4 +88,10 @@ input, textarea, select, button {
 #table {
     height: 350px;
     overflow: auto;
+}
+
+.btn {
+    width: 95%;
+    height: 50px;
+    margin-top: 28px;
 }
