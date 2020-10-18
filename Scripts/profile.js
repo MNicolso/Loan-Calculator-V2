@@ -1,46 +1,53 @@
-﻿
-function homeLoan() {
+﻿$(document).ready(function () {
+    $("#myModal").modal('show');
+});
 
-    var amount = document.getElementById("amount");
-    var rate = document.getElementById("rate");
-    var months = document.getElementById("months");
+function loginValidate() {
 
-    var principal = parseFloat(amount.value);
-    var interest = parseFloat(rate.value) / 100 / 12;
-    var payments = parseFloat(months.value);
 
-    // compute the monthly payment figure
-    var x = Math.pow(1 + interest, payments); //Math.pow computes powers
-    var monthly = (principal * x * interest) / (x - 1);
 
-    var totalInterest = (monthly * payments);
-    var monthlyInterest = ((monthly * payments) - principal);
+        var username = ["u"];
+        let password = ["p"];
 
-    const formatter = new Intl.NumberFormat('en-US', {
-        style: 'currency',
-        currency: 'USD',
-        minimumFractionDigits: 2
-    })
+        let inputPassword = document.getElementById("inputPassword").value;
+        let inputUsername = document.getElementById("inputUsername").value;
+        console.log(inputPassword);
+        console.log(inputUsername);
 
-    let amountRound = formatter.format(principal || 0); 
-    let monthRound = formatter.format(monthly || 0);
-    let interestRound = formatter.format(monthlyInterest || 0);
-    let totalRound = formatter.format(totalInterest || 0);
+        for (i = 0; i < 10; i++) {
+            if (inputPassword == password[i] && inputUsername == username[i]) {
+                $("#myModal").modal('hide');
 
-    document.getElementById("principalOut").innerHTML = `${amountRound}`;
-    document.getElementById("monthlyOut").innerHTML = `${monthRound}`;
-    document.getElementById("interestOut").innerHTML = `${interestRound}`;
-    document.getElementById("costOut").innerHTML = `${totalRound}`;
-
+            }
+        }
 }
 
-document.getElementById("homeLoanButton").addEventListener("click", table)
 
 
-function table() {
-    var amount = document.getElementById("amount").value;
-    var rate = document.getElementById("rate").value;
-    var months = document.getElementById("months").value;
+
+
+$(document).ready(function table() {
+
+    var client = "bill";
+    var amount = 0;
+    var rate = 0;
+    var months = 0;
+
+    switch (client) {
+        case 'bill':
+          amount = 18000;
+           rate = 5;
+            months = 12;
+            break;
+        case 'Jim':
+            amount = 10000;
+            rate = 3;
+            months = 8;
+            break;
+
+    }
+
+   
 
     var monthsCollected = [];
     monthsCollected[months] = "";
@@ -55,6 +62,8 @@ function table() {
 
     }
     monthsCollected.pop();
+    monthsCollected.splice(0,0);
+
 
     //table arrays
     var acountBalance = [amount];
@@ -105,7 +114,7 @@ function table() {
     }
     tableBody.innerHTML = monthsTableOutput;
 
-}
+})
 
 function validate(evt) {
     var theEvent = evt || window.event;
@@ -124,10 +133,3 @@ function validate(evt) {
         if (theEvent.preventDefault) theEvent.preventDefault();
     }
 }
-
-//monthsTableOutput += "<tr>" + "<td>" + monthsCollected[i] + "</td>" + "<td>" + monthly.toFixed(2) + "<td>" + principalBalance[principalBalance.length - 1].toFixed(2) + "</td>" + "</td>" + "<td>" + InterestBalance[InterestBalance.length - 1].toFixed(2) + "</td>" + "<td>" + sum.toFixed(2) + "</td>" + "<td>" + acountBalance[acountBalance.length - 1].toFixed(2) + "</td>" + "</tr>";
-
-//`<tr><td>${monthsCollected[i]}</td><td>${monthly.toFixed(2)}</td><td>${principalBalance[principalBalance.length - 1].toFixed(2)}</td><td>${InterestBalance[InterestBalance.length - 1].toFixed(2)}</td><td>${sum.toFixed(2)}</td><td>${acountBalance[acountBalance.length - 1].toFixed(2)}</td></tr >`;
-
-//document.getElementById("loginButton").addEventListener("click", loginValidate);
-
