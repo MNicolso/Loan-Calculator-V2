@@ -53,10 +53,8 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -71,7 +69,7 @@
 CF Loan Calculator is a tool desinged to help users plan and manage loans and debt. With an input of loan amount, term length (months), and interest rate. Output will show over all loan information as well as a month by month break down.
 
 ### Built With
-Here you can find the frameworks used to develope CF-Mortgage-Calculator.
+Here you can find the frameworks used to develope the Personal Loan Calculator.
 * [HTML](https://www.w3schools.com/html/)
 * [CSS](https://www.w3schools.com/css/)
 * [Bootstrap](https://getbootstrap.com)
@@ -84,14 +82,6 @@ Here you can find the frameworks used to develope CF-Mortgage-Calculator.
 ## Getting Started
 
 Bellow are the instructions for setting up and running CF-Mortgage-Calculator locally.
-
-### Prerequisites
-
-Remove if not needed
-* AAA
-```sh
-AAAA AAA AAAA
-```
 
 ### Installation
  
@@ -135,26 +125,9 @@ git clone https://github.com/markdjanicki23/CF-Mortgage-Calculator.git
 _For more examples, please refer to the [Webpage Application](https://personalloancalculator.netlify.app/)_
 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-See CF-Mortgage-Calculator [open issues](https://github.com/markdjanicki23/CF-Mortgage-Calculator/issues) for a list of planned features to add. (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-CF-Mortgage-Calculator is created by contributors and is welcome for any more conrtibutions to be added. If you want to contrbute to the project, first thank you, and you can find the Git process bellow.
-
-
-1. Fork the Project
-2. Create your Feature Branch [How to branch](git checkout -b feature/AmazingFeature)
-3. Commit your Changes [How to commit](git commit -m 'Add some AmazingFeature')
-4. Push to the Branch [How to push](git push origin feature/AmazingFeature)
-5. Open a Pull Request
-
 ## Contributors
+
+Reach out and contact the creators here:
 
 * [Mark Janicki](https://github.com/markdjanicki23)
 
@@ -165,9 +138,7 @@ CF-Mortgage-Calculator is created by contributors and is welcome for any more co
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/markdjanicki23/CF-Mortgage-Calculator](https://github.com/markdjanicki23/CF-Mortgage-Calculator)
+Project Link: [https://personalloancalculator.netlify.app/](https://github.com/markdjanicki23/CF-Mortgage-Calculator)
 
 
 
