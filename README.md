@@ -54,9 +54,7 @@
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [Contact](#contact)
+* [Contributors & Contact](#contributors-&-contact)
 * [Acknowledgements](#acknowledgements)
 
 
@@ -77,33 +75,12 @@ Here you can find the frameworks used to develope the Personal Loan Calculator.
 
 
 
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Bellow are the instructions for setting up and running CF-Mortgage-Calculator locally.
+### Below is the link to start using our loan calculator.
 
-### Installation
- 
-1. Clone the repo
-```sh
-git clone https://github.com/markdjanicki23/CF-Mortgage-Calculator.git
-```
-
-
-
-<!-- USAGE EXAMPLES -->
-## Created using:
-
-#### Input Value Collection
-
-###### CSS
-
-###### Html
-
-###### JavaScript
-
-
+Project Link: [https://personalloancalculator.netlify.app/](https://personalloancalculator.netlify.app/)
 
 
 ## Contributors & Contact
@@ -115,8 +92,6 @@ Reach out and contact the creators here:
 * [MacColl Nicolson](https://github.com/MNicolso)
 
 * [Ethan Jones](https://github.com/jonesethan91)
-
-Project Link: [https://personalloancalculator.netlify.app/](https://github.com/markdjanicki23/CF-Mortgage-Calculator)
 
 
 <!-- ACKNOWLEDGEMENTS -->
