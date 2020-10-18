@@ -63,7 +63,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-CF Loan Calculator is a tool desinged to help users plan and manage loans and debt. With an input of loan amount, term length (months), and interest rate. Output will show over all loan information as well as a month by month break down.
+The Personal Loan Calculator is a tool designed to help users plan and manage loans and debt. With an input of loan amount, term length (months), and interest rate. the calculator will show you all the total costs of your loan as well as a month by month break down.
 
 
 
