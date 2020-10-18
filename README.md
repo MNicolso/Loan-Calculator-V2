@@ -93,28 +93,11 @@ git clone https://github.com/markdjanicki23/CF-Mortgage-Calculator.git
 
 
 <!-- USAGE EXAMPLES -->
-## Application Usage
+## Created using:
 
 #### Input Value Collection
 
-###### UI
-
-###### Html
-
-###### JavaScript
-
-#### Loan Payment Output
-
-###### UI
-
-###### Html
-
-###### JavaScript
-
-
-#### Table output
-
-###### UI
+###### CSS
 
 ###### Html
 
@@ -122,10 +105,8 @@ git clone https://github.com/markdjanicki23/CF-Mortgage-Calculator.git
 
 
 
-_For more examples, please refer to the [Webpage Application](https://personalloancalculator.netlify.app/)_
 
-
-## Contributors
+## Contributors & Contact
 
 Reach out and contact the creators here:
 
@@ -135,11 +116,7 @@ Reach out and contact the creators here:
 
 * [Ethan Jones](https://github.com/jonesethan91)
 
-<!-- CONTACT -->
-## Contact
-
 Project Link: [https://personalloancalculator.netlify.app/](https://github.com/markdjanicki23/CF-Mortgage-Calculator)
-
 
 
 <!-- ACKNOWLEDGEMENTS -->
