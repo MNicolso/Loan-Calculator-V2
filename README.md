@@ -33,7 +33,7 @@
 </h3>
 
   <p align="center">
-   A great interest rate application to keep track of loans payments for coding bootcamp!
+   A great loan calculator to keep track of your monthly payments!
 <br/>
     <br />
     <br />
