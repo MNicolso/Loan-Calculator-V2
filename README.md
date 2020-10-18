@@ -37,7 +37,7 @@
 <br/>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Site</a>
+    <a href="https://personalloancalculator.netlify.app/">View Site</a>
     ·
     <a href="https://github.com/MNicolso/Loan-Calculator-V2/issues">Report Bug</a>
     ·
@@ -65,6 +65,8 @@
 
 CF Loan Calculator is a tool desinged to help users plan and manage loans and debt. With an input of loan amount, term length (months), and interest rate. Output will show over all loan information as well as a month by month break down.
 
+
+
 ### Built With
 Here you can find the frameworks used to develope the Personal Loan Calculator.
 * [HTML](https://www.w3schools.com/html/)
@@ -82,6 +84,8 @@ Here you can find the frameworks used to develope the Personal Loan Calculator.
 Project Link: [https://personalloancalculator.netlify.app/](https://personalloancalculator.netlify.app/)
 
 
+
+
 ## Contributors and Contact
 
 Reach out and contact the creators here:
@@ -93,11 +97,14 @@ Reach out and contact the creators here:
 * [Ethan Jones](https://github.com/jonesethan91)
 
 
+
+
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
-* [srip](https://https://www.flaticon.com/authors/srip)
+* [Netlify](https://www.netlify.com/)
+
 
 
 
