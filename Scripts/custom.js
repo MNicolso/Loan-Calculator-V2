@@ -4,6 +4,7 @@ function homeLoan() {
     var amount = document.getElementById("amount");
     var rate = document.getElementById("rate");
     var months = document.getElementById("months");
+ 
 
     var principal = parseFloat(amount.value);
     var interest = parseFloat(rate.value) / 100 / 12;
@@ -116,14 +117,80 @@ function validate(evt) {
     } else {
         // Handle key press
         var key = theEvent.keyCode || theEvent.which;
-        key = String.fromCharCode(key);
+        key = String.fromCharCode(key); 
     }
-    var regex = /[0-9\b]|\./;
+    var regex = /[0-9\b\t]|\./;
     if (!regex.test(key)) {
         theEvent.returnValue = false;
         if (theEvent.preventDefault) theEvent.preventDefault();
     }
 }
+
+wefwfeew
+
+//(function ($, undefined) {
+
+//    "use strict";
+
+//    // When ready.
+//    $(function () {
+
+//        var $form = $("#form");
+//        var $input = $form.find("input");
+
+//        $input.on("keyup", function (event) {
+
+
+//            // When user select text in the document, also abort.
+//            var selection = window.getSelection().toString();
+//            if (selection !== '') {
+//                return;
+//            }
+
+//            // When the arrow keys are pressed, abort.
+//            if ($.inArray(event.keyCode, [38, 40, 37, 39]) !== -1) {
+//                return;
+//            }
+
+
+//            var $this = $(this);
+
+//            // Get the value.
+//            var input = $this.val();
+
+//            var input = input.replace(/[\D\s\._\-]+/g, "");
+//            input = input ? parseInt(input, 10) : 0;
+
+//            $this.val(function () {
+//                return (input === 0) ? "" : input.toLocaleString("en-US");
+//            });
+//        });
+
+//        /**
+//         * ==================================
+//         * When Form Submitted
+//         * ==================================
+//         */
+//        $form.on("submit", function (event) {
+
+//            var $this = $(this);
+//            var arr = $this.serializeArray();
+
+//            for (var i = 0; i < arr.length; i++) {
+//                arr[i].value = arr[i].value.replace(/[($)\s\._\-]+/g, ''); // Sanitize the values.
+//            };
+
+//            console.log(arr);
+
+//            event.preventDefault();
+//        });
+
+//    });
+//})(jQuery);
+
+
+
+
 
 //monthsTableOutput += "<tr>" + "<td>" + monthsCollected[i] + "</td>" + "<td>" + monthly.toFixed(2) + "<td>" + principalBalance[principalBalance.length - 1].toFixed(2) + "</td>" + "</td>" + "<td>" + InterestBalance[InterestBalance.length - 1].toFixed(2) + "</td>" + "<td>" + sum.toFixed(2) + "</td>" + "<td>" + acountBalance[acountBalance.length - 1].toFixed(2) + "</td>" + "</tr>";
 
