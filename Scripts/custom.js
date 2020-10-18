@@ -117,7 +117,7 @@ function validate(evt) {
     } else {
         // Handle key press
         var key = theEvent.keyCode || theEvent.which;
-        key = String.fromCharCode(key);
+        key = String.fromCharCode(key); 
     }
     var regex = /[0-9\b\t]|\./;
     if (!regex.test(key)) {
@@ -126,8 +126,7 @@ function validate(evt) {
     }
 }
 
-
-
+wefwfeew
 
 //(function ($, undefined) {
 
