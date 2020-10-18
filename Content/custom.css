@@ -109,3 +109,8 @@ input, textarea, select, button {
     margin: 10px;
     box-sizing: border-box;
 }
+
+#table {
+    height: 350px;
+    overflow: auto;
+}
