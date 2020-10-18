@@ -149,14 +149,14 @@
                                 <div class="row">
                                     <div class="col text-center">
                                         <form onsubmit="return false;">
-                                            <hr />
+                                            <br />
                                             <span>Loan Amount: </span>
                                             <span>$</span>
                                             <input required maxlength = "9" type="text" id="amount" onkeypress='validate(event)' />
-                                            <hr />
+                                            <br />
                                             <span>Term(Months): </span>
                                             <input required maxlength ="3" type="text" id="months" onkeypress='validate(event)'  />
-                                            <hr />
+                                            <br />
                                             <span>Interest Rate: </span>
                                             <span>%</span>
                                             <input required maxlength = "3" type="text" id="rate" onkeypress='validate(event)'  />
@@ -176,32 +176,32 @@
                                 <div class="content">
                                     <div class="row">
                                         <div class="col text-center">
-                                            <span id="monthlyOut">Monthly Payment Output</span>
+                                            <span id="monthlyOut">Monthly Payment</span>
                                         </div>
                                     </div>
                                     <hr />
                                     <div class="row">
                                         <div class="col text-center">
-                                            <span>Total Principal:</span>
+                                            <span id="outputs">Total Principal:</span>
                                         </div>
                                         <div class="col text-center">
-                                            <span id="principalOut"></span>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col text-center">
-                                            <span>Total Interest:</span>
-                                        </div>
-                                        <div class="col text-center">
-                                            <span id="interestOut"></span>
+                                            <span id="principalOut"></span> <br />
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col text-center">
-                                            <span>Total Cost:</span>
+                                            <span id="outputs">Total Interest:</span>
                                         </div>
                                         <div class="col text-center">
-                                            <span id="costOut"></span>
+                                            <span id="interestOut"></span> <br />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-center">
+                                            <span id="outputs">Total Cost:</span>
+                                        </div>
+                                        <div class="col text-center">
+                                            <span id="costOut"></span> <br />
                                         </div>
                                     </div>
                                 </div>

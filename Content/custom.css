@@ -41,10 +41,11 @@ th {
 .header {
     padding: 60px;
     text-align: center;
-    background: rgba(182, 182, 182, 0.92);
+    background: skyblue;
     color: white;
     font-size: 30px;
 }
+
 
 .navbar {
     padding: 15px;
@@ -92,3 +93,19 @@ a.logoutButton {
         margin: 0.4em auto;
     }
 } 
+
+#monthlyOut {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#outputs {
+    font-size: 20px;
+}
+
+input, textarea, select, button {
+    width: 30%;
+    padding: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+}
