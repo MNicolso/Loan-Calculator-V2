@@ -124,3 +124,5 @@ function validate(evt) {
         if (theEvent.preventDefault) theEvent.preventDefault();
     }
 }
+
+// If the regex keys are pressed, allow it. If not, prevent them from being input.
