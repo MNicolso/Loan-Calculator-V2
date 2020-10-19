@@ -124,5 +124,3 @@ function validate(evt) {
         if (theEvent.preventDefault) theEvent.preventDefault();
     }
 }
-
-
