@@ -35,19 +35,19 @@ function loginValidate() {
         case 'Bill':
             amount = 18000;
             rate = 5;
-            months = 24;
+            months = 18;
             startYear = 2020;
             break;
         case 'Jim':
             amount = 10000;
-            rate = 3;
-            months = 8;
+            rate = 8;
+            months = 26;
             startYear = 2019;
             break;
         case 'Ann':
             amount = 15000;
-            rate = 8;
-            months = 12;
+            rate = 7;
+            months = 23;
             startYear = 2019;
             break;
 
