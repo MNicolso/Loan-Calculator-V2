@@ -19,6 +19,7 @@ function loginValidate() {
             if (inputPassword == password[i] && inputUsername == username[i]) {
                 $("#myModal").modal('hide');
                 document.getElementById("myModal").innerHTML = "";
+                document.getElementById("pageName").innerHTML = `Hello ${inputUsername}`;
             }
     }
 
@@ -29,7 +30,7 @@ function loginValidate() {
     var rate = 0;
     var months = 0;
     var startYear = 0000;
-
+    
     switch (client) {
         case 'Bill':
             amount = 18000;
