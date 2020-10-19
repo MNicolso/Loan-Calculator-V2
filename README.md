@@ -114,5 +114,5 @@ Reach out and contact the creators here:
 [contributors-url]: https://github.com/MNicolso/Loan-Calculator-V2/graphs/contributors
 [issues-shield]: https://img.shields.io/badge/Issues-Here-orange
 [issues-url]: https://github.com/MNicolso/Loan-Calculator-V2/issues
-[product-screenshot]: readMeImages/screenshot.png
+[product-screenshot]: readMeImages/screenshot1.png
 
