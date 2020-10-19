@@ -1,4 +1,5 @@
-﻿$(document).ready(function () {
+﻿
+$(document).ready(function () {
     $("#myModal").modal('show');
 });
 
@@ -6,38 +7,33 @@ function loginValidate() {
 
 
 
-        var username = ["u"];
-        let password = ["p"];
+        var username = ["Bill","Jim","Ann"];
+        let password = ["password","password2","password3"];
 
         let inputPassword = document.getElementById("inputPassword").value;
-        let inputUsername = document.getElementById("inputUsername").value;
+        var inputUsername = document.getElementById("inputUsername").value;
         console.log(inputPassword);
         console.log(inputUsername);
 
         for (i = 0; i < 10; i++) {
             if (inputPassword == password[i] && inputUsername == username[i]) {
                 $("#myModal").modal('hide');
-
+                document.getElementById("myModal").innerHTML = "";
             }
-        }
-}
+    }
 
 
 
-
-
-$(document).ready(function table() {
-
-    var client = "bill";
+    var client = inputUsername;
     var amount = 0;
     var rate = 0;
     var months = 0;
     var startYear = 0000;
 
     switch (client) {
-        case 'bill':
-          amount = 18000;
-           rate = 5;
+        case 'Bill':
+            amount = 18000;
+            rate = 5;
             months = 24;
             startYear = 2020;
             break;
@@ -47,10 +43,17 @@ $(document).ready(function table() {
             months = 8;
             startYear = 2019;
             break;
+        case 'Ann':
+            amount = 15000;
+            rate = 8;
+            months = 12;
+            startYear = 2019;
+            break;
+
 
     }
 
-   
+
 
     var monthsCollected = [];
     monthsCollected[months] = "";
@@ -72,7 +75,7 @@ $(document).ready(function table() {
 
         if (monthsCollected[i] == currentDate) {
             monthsCollected[i] = "Current Payment";
-        } else if (monthsCollected[i] == 1 || monthsCollected[i] == 12 || monthsCollected[i] == 24 ) {
+        } else if (monthsCollected[i] == 1 || monthsCollected[i] == 12 || monthsCollected[i] == 24) {
             monthsCollected[i] = "Jan"
         } else if (monthsCollected[i] == 2 || monthsCollected[i] == 13 || monthsCollected[i] == 25) {
             monthsCollected[i] = "Feb"
@@ -100,7 +103,7 @@ $(document).ready(function table() {
 
     }
     monthsCollected.pop();
-    monthsCollected.splice(0,0);
+    monthsCollected.splice(0, 0);
 
 
     //table arrays
@@ -152,7 +155,7 @@ $(document).ready(function table() {
     }
     tableBody.innerHTML = monthsTableOutput;
 
-})
+}
 
 function validate(evt) {
     var theEvent = evt || window.event;
@@ -170,4 +173,7 @@ function validate(evt) {
         theEvent.returnValue = false;
         if (theEvent.preventDefault) theEvent.preventDefault();
     }
+
 }
+
+
