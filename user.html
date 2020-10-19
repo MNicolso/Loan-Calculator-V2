@@ -75,75 +75,85 @@
                         <h1 class="text-light" id="pageName" href="#">User</h1>
                     </div>
                     <div class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav navbar-left">                          
-                        <li class="separator hidden-lg hidden-md"></li>
+                        <ul class="nav navbar-nav navbar-right">
+
+                            <li>
+                                <a href="user.html">
+                                    <p>Log out</p>
+                                </a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>
             </nav>
 
+            
 
-            <div class="content">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <div class="card" id="demo">
-                                <div class="header">
-                                    <h4 class="title">Payments by Month</h4>
-                                    <p class="category"></p>
-                                </div>
-                                <div class="content table-responsive table-full-width">
-                                    <table class="table table-hover table-striped">
-                                        <thead>
-                                        <th>Month</th>
-                                        <th>Payment</th>
-                                        <th>Principle</th>
-                                        <th>Interest</th>
-                                        <th>Total Interest</th>
-                                        <th>Balance</th>
-                                        </thead>
-                                        <tbody id="tabledata">
-                                        </tbody>
-                                    </table>
 
+
+                <div class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="card" id="demo">
+                                    <div class="header">
+                                        <h4 class="title">Payments by Month</h4>
+                                        <p class="category"></p>
+                                    </div>
+                                    <div class="content table-responsive table-full-width">
+                                        <table class="table table-hover table-striped">
+                                            <thead>
+                                            <th>Month</th>
+                                            <th>Payment</th>
+                                            <th>Principle</th>
+                                            <th>Interest</th>
+                                            <th>Total Interest</th>
+                                            <th>Balance</th>
+                                            </thead>
+                                            <tbody id="tabledata">
+                                            </tbody>
+                                        </table>
+
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="col-md-8">
-                                <div class="card">
-                                    <div class="header">
-                                        <h4 class="title text-center">Next Payment Due:</h4>
-                                    </div>
-                                    <div class="content">
-                                        <div class="row">
-                                            <div class="col text-center">
-                                                <span id="monthlyOut">Monthly Payment</span>
-                                            </div>
+                            <div class="col-md-4">
+                                <div class="col-md-8">
+                                    <div class="card">
+                                        <div class="header">
+                                            <h4 class="title text-center">Next Payment Due:</h4>
                                         </div>
-                                        <hr />
-                                        <div class="row">
-                                            <div class="col text-center">
-                                                <span id="outputs">Principal Due:</span>
+                                        <div class="content">
+                                            <div class="row">
+                                                <div class="col text-center">
+                                                    <span id="monthlyOut">Monthly Payment</span>
+                                                </div>
                                             </div>
-                                            <div class="col text-center">
-                                                <span id="principalOut"></span> <br />
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col text-center">
+                                                    <span id="outputs">Principal Due:</span>
+                                                </div>
+                                                <div class="col text-center">
+                                                    <span id="principalOut"></span> <br />
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col text-center">
-                                                <span id="outputs">Interest Due:</span>
+                                            <div class="row">
+                                                <div class="col text-center">
+                                                    <span id="outputs">Interest Due:</span>
+                                                </div>
+                                                <div class="col text-center">
+                                                    <span id="interestOut"></span> <br />
+                                                </div>
                                             </div>
-                                            <div class="col text-center">
-                                                <span id="interestOut"></span> <br />
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col text-center">
-                                                <span id="outputs">Total Cost Due:</span>
-                                            </div>
-                                            <div class="col text-center">
-                                                <span id="costOut"></span> <br />
+                                            <div class="row">
+                                                <div class="col text-center">
+                                                    <span id="outputs">Total Cost Due:</span>
+                                                </div>
+                                                <div class="col text-center">
+                                                    <span id="costOut"></span> <br />
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -152,18 +162,17 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <footer class="footer">
-                <div class="container-fluid">
+                <footer class="footer">
+                    <div class="container-fluid">
 
-                    <p class="copyright text-center">
-                        &copy;
-                        <script>document.write(new Date().getFullYear())</script> <a href="https://markjanicki.netlify.app/" target="_blank">Mark Janicki</a>, <a href="https://maccoll-nicolson-portfolio.netlify.app/" target="_blank">MacColl Nicolson</a>, <a href="https://ethan-jones-dragon.netlify.app/" target="_blank">Ethan Jones</a> | <a href="https://github.com/MNicolso/Loan-Calculator-V2" target="_blank">Github</a>
-                    </p>
-                </div>
-            </footer>
+                        <p class="copyright text-center">
+                            &copy;
+                            <script>document.write(new Date().getFullYear())</script> <a href="https://markjanicki.netlify.app/" target="_blank">Mark Janicki</a>, <a href="https://maccoll-nicolson-portfolio.netlify.app/" target="_blank">MacColl Nicolson</a>, <a href="https://ethan-jones-dragon.netlify.app/" target="_blank">Ethan Jones</a> | <a href="https://github.com/MNicolso/Loan-Calculator-V2" target="_blank">Github</a>
+                        </p>
+                    </div>
+                </footer>
+            </div>
         </div>
-    </div>
     <!--Login modal-->
     <href ="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -194,7 +203,7 @@
                             <button class="btn btn-default" id="loginButton" onclick="loginValidate()">Login</button>
                         </div>
                         <div class="col text-center">
-                            <a href="https://personalloancalculator.netlify.app/index.html">Return</a>
+                            <a href="Index.html">Return</a>
                         </div>
                     </div>
                 </div>
