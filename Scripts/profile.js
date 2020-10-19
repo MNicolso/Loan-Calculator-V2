@@ -106,6 +106,7 @@ function loginValidate() {
     monthsCollected.pop();
     monthsCollected.splice(0, 0);
 
+    document.getElementById("monthlyOut").innerHTML = monthsCollected[currentDate];
 
     //table arrays
     var acountBalance = [amount];
@@ -151,7 +152,9 @@ function loginValidate() {
         acountBalance.push(balance);
 
         monthsTableOutput += "<tr>" + "<td>" + monthsCollected[i] + "</td>" + "<td>" + formatter.format(monthly) + "<td>" + formatter.format(principalBalance[principalBalance.length - 1]) + "</td>" + "</td>" + "<td>" + formatter.format(InterestBalance[InterestBalance.length - 1]) + "</td>" + "<td>" + formatter.format(sum) + "</td>" + "<td>" + formatter.format(acountBalance[acountBalance.length - 1]) + "</td>" + "</tr>";
-
+        document.getElementById("principalOut").innerHTML = formatter.format(principalBalance[currentDate]);
+        document.getElementById("interestOut").innerHTML = formatter.format(InterestBalance[currentDate]);
+        document.getElementById("costOut").innerHTML = formatter.format(InterestBalance[currentDate] + principalBalance[currentDate]);
 
     }
     tableBody.innerHTML = monthsTableOutput;
