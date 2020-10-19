@@ -126,7 +126,6 @@ function validate(evt) {
     }
 }
 
-wefwfeew
 
 //(function ($, undefined) {
 
