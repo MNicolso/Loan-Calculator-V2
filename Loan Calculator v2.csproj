@@ -72,6 +72,7 @@
     <Content Include="assets\css\light-bootstrap-dashboard.css" />
     <Content Include="assets\css\pe-icon-7-stroke.css" />
     <Content Include="assets\fonts\Pe-icon-7-stroke.svg" />
+    <Content Include="assets\img\sidebar-2.jpg" />
     <Content Include="assets\js\bootstrap-notify.js" />
     <Content Include="assets\js\bootstrap-select.js" />
     <Content Include="assets\js\bootstrap.min.js" />
@@ -135,9 +136,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="assets\img\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
