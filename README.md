@@ -90,11 +90,11 @@ The Personal Loan Calculator: [https://personalloancalculator.netlify.app/](http
 
 Reach out and contact the creators here:
 
-* [Mark Janicki](https://github.com/markdjanicki23)
+* [Mark Janicki](https://markjanicki.netlify.app/)
 
-* [MacColl Nicolson](https://github.com/MNicolso)
+* [MacColl Nicolson](https://maccoll-nicolson-portfolio.netlify.app/)
 
-* [Ethan Jones](https://github.com/jonesethan91)
+* [Ethan Jones](https://ethan-jones-dragon.netlify.app/)
 
 
 
