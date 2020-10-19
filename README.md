@@ -25,7 +25,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/markdjanicki23/CF-Loan-Calculator">
+  <a href="https://personalloancalculator.netlify.app/">
     <img src="readMeImages/loan.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -114,5 +114,5 @@ Reach out and contact the creators here:
 [contributors-url]: https://github.com/MNicolso/Loan-Calculator-V2/graphs/contributors
 [issues-shield]: https://img.shields.io/badge/Issues-Here-orange
 [issues-url]: https://github.com/MNicolso/Loan-Calculator-V2/issues
-[product-screenshot]: readMeImages/Personal Loan Calculator.png
+[product-screenshot]: readMeImages/screenshot.png
 
